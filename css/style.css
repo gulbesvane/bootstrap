@@ -1,0 +1,88 @@
+/*Mobile first design*/
+/*General tags*/
+body{
+	background-color: #ececec;
+	font-family: Roboto;
+	color: #3E3D45;
+	text-align: center;
+}
+
+a{
+	color: #D34F4E;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #ff3a38;
+}
+
+/*Classes*/
+.headerContainer{
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+
+.profileImg{
+	width: 35%;
+}
+
+.mainHeading{
+	font-size: 2.2em;
+	color: #D34F4E;
+	margin-bottom: 5vw;
+}
+
+.introContainer{
+	margin-bottom: 5vw;
+}
+
+.intro{
+	margin: 0 10vw 5vw;
+	font-size: 1.2em;
+}
+
+.componentDescription{
+	text-align: left;
+}
+
+.underline{
+	text-decoration: underline #3E3D45;
+}
+
+
+@media screen and (min-width: 760px){
+.mainHeading{
+	font-size: 2.8em;
+}
+
+.profileImg{
+	width: 30%;
+}
+
+.intro{
+	margin: 0 15vw 5vw;
+}
+
+@media screen and (min-width: 1021px){
+.headerContainer{
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+}
+.mainHeading{
+	font-size: 3.2em;
+	margin-bottom: 3vw;
+}
+.profileImg{
+	width: 15%;
+}
+
+.intro{
+	margin: 0 33vw 5vw;
+	font-size: 1.3em;
+}
+
+}
+
+
+
+
